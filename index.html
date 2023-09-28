@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul class="navbar">
+    <li><img src="https://itemsstore.net/html/trito/img/logo/logo.png" alt=""></li>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">News</a></li>
+    <li><a href="#">contact</a></li>
+    <li><a href="#" id="down" download="" >Download CV</a></li>
+    
+    </ul>
+    <div class="landingpage">
+        <div style="padding-top: 100px;">
+            <div style="font-size: 30px;">Hi i'm</div>
+            <div style="font-size: 60px;">james smith</div>
+            <div style="font-size: 30px;">web devloper based in New York</div>
+            <br><br><br>
+            <span class="button1">Say hello</span>
+            &nbsp;&nbsp;&nbsp;<a href="#">My work</a>
+            <br><br><br><br>
+            <q><i>I Am listen to your needs & thoughtfully interpret your requirements
+        </div>
+    <div>
+    <img src="avatar (1).png" alt="">
+    </div>
+    </div>
+   
+     <!-- =========my clients======== -->
+     <section style="background-color: rgb(15,15,68);">
+     <div class="myclient">
+        <div style="margin-top: -15px;">_______</div>
+        <div>my client</div>
+        <div style="margin-top: -15px";>_______</div>
+     </div>
+     <div class="myclient">
+        <img src="6.png" alt="">
+        <img src="5.png" alt="">
+        <img src="4.png" alt="">
+         <img src="3.png" alt="">
+    </div>
+    </section>
+      <!-- ========= end my clients======== -->
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>

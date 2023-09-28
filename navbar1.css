@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+*{
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    background-image:url(background.jpg);
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav li a{
+    text-decoration: none;
+    color: rgb(3, 3, 51);
+}
+.nav li{
+    list-style-type:none;
+    margin: 10px;
+    padding: 10px;
+}
+.nav li img{
+    width: 100px;
+    margin-right: 100px;
+}
+#down{
+    margin-left: 50px;
+    border:2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgb(4, 4, 54);
+    color:white;
+}
+#down:hover{
+    background-color: white;
+    color:rgb(4, 4, 54);
+}
+.landingpage{
+    display: flex;
+    justify-content: center;
+    background-image: url(background.jpg);
+    border-top: 1px solid black;
+    padding-bottom: 0px;
+}
+.landingdiv1{
+    margin-right:100px;
+    padding-top: 150px;
+    color: rgb(2, 2, 37);
+}
+.landingpage div img{
+    width: 550px;
+    margin-top:70px ;
+    margin-bottom: 0px;
+}
+.button{
+    background-color: white;
+    color:rgb(4, 4, 54) ;
+    padding: 10px;
+    border: 2px solid rgb(4, 4, 53);
+}
+.button:hover{
+    background-color:rgb(4, 4, 59) ;
+    color:white;
+}
+/* ========MY CLIENT============== */
+.myclient{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: -4px;
+}
+.myclient div{
+    font-size: 30px;
+    color: white;
+}
+.myclient1{
+    display: flex;
+    justify-content: center;
+}
+.myclient1 img{
+    margin: 30px;
+    opacity: 0.5;
+}
+.myclient1 img:hover{
+    opacity: 1;
+}
+@media(max-width:413px){
+    .myclient{
+        display:block;
+        padding: 30px;
+        margin-top: -4px;
+    }
+}
+/* =========dedication====== */
+.dedication{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 20px;
+    color:rgb(47, 47, 175);
+}
+.image1{
+    padding: 40px;
+    border-right: 1px solid rgb(5, 5, 43);
+}
+.image1 span{
+    font-size: 35px;
+    font-weight: 600px;
+}
+.image1 img{
+    width: 60px;
+}
+@media(max-width:413px){
+    .dedication{
+       display: block;
+        
+        margin-top: 100px;
+        font-size: 20px;
+        color:rgb(47, 47, 175);
+    }
+    .image1{
+        padding: 40px;
+        border-right: 1px solid rgb(5, 5, 43);
+    }
+}
+/* =======My Skills====== */
+.skill1{
+    color: orangered;
+    font-size: 20px;
+    margin: 0px !important;
+}
+.skill2{
+    color:rgb(18,18,62);
+    font-size: 50px;
+    margin: 0px !important;
+}
+.skill3{
+    color:grey;
+    font-size: 15px;
+    margin: 0px !important;
+}
+.skilldiv2{
+    background-image: url('https://itemsstore.net/html/trito/img/skills/1.jpg');
+    padding: 60px;
+}
+.skilldiv2 span{
+    border: 2px solid black;
+    background-color: white;
+    color: rgb(18,18,62);
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+.mainskill div{
+    margin:70px;
+}
+.mainskill{
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+}
+@media(max-width:413px){
+    .mainskill{
+        display: block;
+        padding-left: 0px;
+    }
+    .mainskill div{
+        margin:80px;
+    }
+    .res1{
+        margin-left: 40px !important ;
+        margin-bottom: 20px !important ;
+        }
+        .skill2{
+            color:rgb(18,18,62);
+            font-size: 50px;
+            margin: 20px !important;
+        }
+        .skilldiv2{
+            background-image: url('https://itemsstore.net/html/trito/img/skills/1.jpg');
+            padding: 20px;
+        }
+    }   
+/* ================project================== */
+.projects{
+    display: flex;
+    justify-content: center;
+    color: rgb(7, 7, 77);
+   /* font-weight: ; */
+} 
+.projects div{
+    margin: 50px;
+    font-size: 30px;
+    display: flex;
+}
+.projects div u{
+    font-size: 60px;
+}
+.projects div div{
+    margin: 0px;
+}
+@media(max-width:413px){
+    .projects{
+        display: block;
+        color: rgb(7, 7, 77);
+       /* font-weight: ; */
+       margin-left: -30px;
+    } 
+    .projects div div{
+        margin: 14px;
+    }
+}
+/* =====about me======= */
+.about{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 30px;
+    margin-top: 50px;
+    background-image: url('https://itemsstore.net/html/trito/img/about/background.jpg');
+}
+.about img{
+    width: 300px;
+
+}
+.aboutme{
+    font-size: 20px;
+    margin-left:100px ;
+    margin-top:100px;
+    width:500px;
+}
+ .aboutheadline{
+    font-size:50px;
+    font-weight: 500px;
+    margin-top: 30px;
+} 
+ .aboutme p{
+    margin-top: 30px;
+    color: rgb(39, 39, 148);
+} 
+.aboutme div{
+    color: rgb(214 ,55, 27);
+}
+.button1{
+    border: 1px solid blue;
+    font-size: 15px;
+    padding: 15px;
+    margin-top : 30px;
+    background-color: rgb(4,4,99);
+    color: white !important;
+    width:60px;
+}
+.button1:hover{
+    background-color: white;
+    color:rgb(4,4,99)
+}
+@media(max-width:413px){
+    .about{
+        display: block;
+        border: 1px solid black;
+        padding: 80px;
+        margin-top: 50px;
+        background-image: url('https://itemsstore.net/html/trito/img/about/background.jpg');
+    }
+    .aboutme{
+        font-size: 20px;
+        margin-left:-50px ;
+        margin-top:40px;
+        width:350px;
+    }
+
+}
+/* =========ABOUT 1======== */
+.about1{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-inline: 80px;
+}
+.about1 img{
+    width: 350px;
+}
+.about1 div{
+    color: rgb(6,6,46);
+    font-size:15px ;
+    text-align: left;
+
+    margin-top: 30px;
+    padding-left:80px ;
+    /*width: 350px;
+    height: 20px; */
+}
+@media(max-width:413px){
+    .about1{
+        display: block;
+        margin-top: 100px;
+        margin-left: 30px;
+    }  
+    .about1 div{
+        color: rgb(6,6,46);
+        font-size:15px ;
+        text-align: left;
+        margin-top: 30px;
+        padding-left:0px ;
+        /*width: 350px;
+        height: 20px; */
+    }  
+}
+
+/* ===========FAQ========= */
+.image51{
+    border: 2px solid black;
+    width: 50%;
+    overflow: hidden;
+    margin: 10px;
+}
+.image51 img:hover{
+    scale: 1.2;
+    transition: scale 1s;
+}
+.mainimages{
+    display: flex;
+}
+.image52{
+    border: 2px solid black;
+    width: 33%;
+    overflow: hidden;
+    margin: 10px;
+}
+.image52 img:hover{
+    scale: 1.2;
+    transition: scale 1s;
+}
+@media(max-width:413px){
+    .mainimages{
+        display: block;
+    }
+    .image51{
+        border: 2px solid black;
+        width: 95%;
+        overflow: hidden;
+        margin: 10px;
+    }
+    .image52{
+        border: 2px solid black;
+        width: 95%;
+        overflow: hidden;
+        margin: 10px;
+    }
+    .image52 img:hover{
+        scale: 1.2;
+        transition: scale 1s;
+    }
+    .image51 img:hover{
+        scale: 1.2;
+        transition: scale 1s;
+    }
+
+}
+/* ========FAQ QUESTIONS */
+.faq{
+    width:80%;
+    background-color: rgb(4,4,62);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: -100px;
+}
+
+#check1:checked~ .faq{
+    margin-top: 20px;
+    transition: margin-top 2s;
+}
+.label1{
+    color: white;
+    background-color: green;
+    padding: 5px 10px 5px 10px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 2px;
+    float: right;
+}
+
+.faq1{
+    width:75%;
+    background-color: rgb(4,4,62);
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#check2:checked~ .faq{
+    margin-top: 20px;
+    transition: margin-top 2s;
+}
+.label2{
+    color: white;
+    background-color: green;
+    padding: 5px 10px 5px 10px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 2px;
+    float: right;
+}
+
+.faq2{
+    width:75%;
+    background-color: rgb(4,4,62);
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#check3:checked~ .faq{
+    margin-top: 20px;
+    transition: margin-top 2s;
+}
+.label3{
+    color: white;
+    background-color: green;
+    padding: 5px 10px 5px 10px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 2px;
+    float: right;
+}
+
+.faq3{
+    width:75%;
+    background-color: rgb(4,4,62);
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#check4:checked~ .faq{
+    margin-top: 20px;
+    transition: margin-top 2s;
+}
+.label4{
+    color: white;
+    background-color: green;
+    padding: 5px 10px 5px 10px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 2px;
+    float: right;
+}
+
+.faq4{
+    width:75%;
+    background-color: rgb(4,4,62);
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#check5:checked~ .faq{
+    margin-top: 20px;
+    transition: margin-top 2s;
+}
+.label5{
+    color: white;
+    background-color: green;
+    padding: 5px 10px 5px 10px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 2px;
+    float: right;
+}
+
+.faq5{
+    width:75%;
+    background-color: rgb(4,4,62);
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*====FREELANCING BLOCK=====  */
+.freelance{
+    font-size: 50px;
+    font-weight: 700;
+    color:rgb(4,4,62);
+    background-image: url(background.jpg);
+    /* border: 1px solid black; */
+    margin-top: 150px;
+    padding: 100px;
+    
+}
+.button2{
+    color: rgb(4,4,62);
+    font-size: 18px;
+    font-weight: 20;
+    background-color: white;
+    border: 2px solid rgb(4,4,62);
+    width: 200px;
+    padding: 10px;
+    margin: 50px;
+
+}
+.button2:hover{
+    color: white;
+    background-color:rgb(4,4,62) ;
+}
+@media(wax-width:413px){
+    .button2{
+        margin-left: 0px;
+    }
+}
+/* =================== */
+.mainblog{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(17, 17, 112) ;
+    /* width: 500px; */
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 80px;
+    
+} 
+.blog{
+    display: flex;
+    font-size: 30px;
+    color: orangered;
+} 
+.blogimage div img{
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 200px;
+    
+}
+.blogimage {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+     /* border: 1px solid black; */
+    /* width: 900px; */
+    
+
+}
+.blogimage p{
+    font-size: 20px;
+    font-weight: 550;
+    border-bottom: 1px solid rgb(192, 189, 189);
+    margin-top:30px ;
+}
+.blogimage p:hover{
+    color:orangered;
+}
+.blogimage div{
+    /* border: 1px solid black;*/
+    padding: 10px; 
+    font-size: 15px;
+    font-weight: 10;
+    margin-right: 30px;
+    
+}
+
+/* ==============contact============ */
+ /* .contactarea{
+    display: grid;
+    grid-template-columns: auto auto;
+     justify-content: center; 
+    background-color: rgb(2, 2, 53);
+    border: 2px solid rgb(2, 2, 53);
+    
+}
+.contactdetail{
+    display:flex; 
+    color: orangered;
+    font-size: 20px;
+}
+.contactdetail1{
+    color:rgb(224, 221, 221);
+     font-size: 20px;
+    font-weight: 500px; 
+}
+.contactdetail1 a{
+    color: white;
+    font-size: 20px;
+}
+.contactform{
+    border: 2px solid black;
+    
+}
+
+
+ */
